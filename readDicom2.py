@@ -12,7 +12,7 @@ from convertir2 import *
     print("Usage: DicomImagePrintTags <input_file>")
     sys.exit(1)"""
 
-path="C:\\Users\\josec\\OneDrive\\Desktop\\dam2\\metadatapython\\MetaDataPython\\08"
+path="PLACE HERE YOUR PATH"
 
 series_IDs = sitk.ImageSeriesReader.GetGDCMSeriesIDs(path)#la primera funcion lee la imagen de la serie y la segunda coge todas la seriesIDS del DICOM data set
 print(series_IDs)
