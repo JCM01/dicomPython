@@ -3,7 +3,7 @@
 ## This is made with SimpleITK, VTK and Matplot libraries.
 
 Using Python to develop this two images, first one shows a 3D vertebrae column and the second one it is a 2D image vertebrae column, also using its filters.
-The 3D image has texture from a jpg format vtk filters.
+The 3D image has texture from a jpg format and vtk filters.
 
 Requirements:
 - Python 3.8.10 (This version o lower will work)
