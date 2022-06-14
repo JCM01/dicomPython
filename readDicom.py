@@ -5,7 +5,7 @@ import sys
     print("Usage: DicomImagePrintTags <input_file>")
     sys.exit(1)"""
 
-path="C:\\Users\\jose\\Documents\\MetaDataPython\\08"
+path="PLACE HERE YOUR PATH"
 
 series_IDs = sitk.ImageSeriesReader.GetGDCMSeriesIDs(path)
 print(series_IDs)
