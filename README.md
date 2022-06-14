@@ -1,5 +1,15 @@
 # metaDataPython
-This is some of my work of my last job
+
+## This is made with SimpleITK, VTK and Matplot libraries.
+
+Using Python to develop this two images, first one shows a 3D vertebrae column and the second one it is a 2D image vertebrae column, also using its filters.
+
+Requirements:
+Python 3.8.10 (This version o lower will work)
+DICOM file
+pip install vtk
+pip install SimpleITK
+pip install matplotlib
 
 ![image](https://user-images.githubusercontent.com/57594425/173590279-6c140fd7-b113-43c2-ad9c-d5b6d734efe1.png)
 
